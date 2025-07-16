@@ -8,8 +8,8 @@
       <q-input
         filled
         v-model="name"
-        label="Your name *"
-        hint="Name and surname"
+        label="ขื่อ - สกุล*"
+        hint="กรุณา ใส่ชื่อ นามกุล"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
